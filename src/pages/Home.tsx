@@ -1,3 +1,4 @@
+import Current from "../blocks/Current";
 import IntroBlock from "../blocks/IntroBlock";
 import Header from "../components/Header";
 import Line from "../components/Line";
@@ -8,6 +9,7 @@ function Home() {
     <div>
       <Header />
       <IntroBlock />
+      <Current />
     </div>
   );
 }

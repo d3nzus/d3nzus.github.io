@@ -12,7 +12,7 @@ function IntroBlock() {
            font-bold text-white -my-1 ">
             RENZ FREDERICK P. BAÑAS
           </h1>
-          <p className="font-text-2xl text-gray-400 -my-1">
+          <p className="text-2xl text-gray-400 -my-1">
             Student Web Designer/Developer
           </p>
           <br />
