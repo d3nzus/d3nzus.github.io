@@ -1,8 +1,14 @@
 import IntroBlock from "../blocks/IntroBlock";
+import Header from "../components/Header";
+import Line from "../components/Line";
+import Socials from "../components/Socials";
 
 function Home() {
   return (
-    <IntroBlock />
+    <div>
+      <Header />
+      <IntroBlock />
+    </div>
   );
 }
 
