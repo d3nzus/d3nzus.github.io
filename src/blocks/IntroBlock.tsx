@@ -36,7 +36,7 @@ function IntroBlock() {
           </p>
           </div>
           <img
-            src="src/public/image.png"
+            src="/image.png"
             alt="Picture"
             className="w-8/22 h-auto z-0 shrink-0 relative object-cover pointer-events-none"
           />
