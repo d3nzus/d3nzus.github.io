@@ -1,3 +1,5 @@
+import Project from "../types";
+
 function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="bg-gray-500 rounded-4xl w-3/4 h-fit mx-auto p-7 my-10 flex align-baseline justify-start gap-4">

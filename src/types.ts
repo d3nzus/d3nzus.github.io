@@ -6,3 +6,5 @@ type Project = {
   pageLink: string;
   tags: string[];
 };
+
+export default Project;
