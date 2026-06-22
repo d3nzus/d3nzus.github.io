@@ -1,10 +1,10 @@
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="bg-gray-500 rounded-4xl w-fit h-fit mx-auto p-7 my-10 flex align-baseline justify-start gap-4">
+    <div className="bg-gray-500 rounded-4xl w-3/4 h-fit mx-auto p-7 my-10 flex align-baseline justify-start gap-4">
       <img
         src={project.image}
         alt={project.name}
-        className="h-1/5 w-1/5 object-fill"
+        className="h-64 w-64 object-fill"
       />
       <div className="flex flex-col align-baseline w-full">
         <h1 className="text-3xl text-white mt-4 text-left">{project.name}</h1>
