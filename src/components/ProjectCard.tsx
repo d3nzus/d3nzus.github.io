@@ -19,7 +19,7 @@ function ProjectCard({ project }: { project: Project }) {
           {project.tags.map((tag, index) => (
             <img
               key={index}
-              src={`/src/public/tech-icons/${tag}.png`}
+              src={`src/public/tech-icons/${tag}.png`}
               alt={tag}
               className="h-10 w-10 object-cover rounded-full"
             />
