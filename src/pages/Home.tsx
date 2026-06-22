@@ -1,8 +1,15 @@
+import Current from "../blocks/Current";
+import IntroBlock from "../blocks/IntroBlock";
+import Previous from "../blocks/Previous";
+import Header from "../components/Header";
+
 function Home() {
   return (
-    <div className="home">
-      <h1>Welcome to D3nzus.Github.IO</h1>
-      <p>This is the home page of my personal website.</p>
+    <div>
+      <Header />
+      <IntroBlock />
+      <Current />
+      <Previous />
     </div>
   );
 }
