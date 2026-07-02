@@ -6,7 +6,7 @@ function ProjectCard({ project }: { project: Project }) {
       <img
         src={project.image}
         alt={project.name}
-        className="h-64 w-64 object-fill"
+        className="h-32 w-32 object-fill"
       />
       <div className="flex flex-col align-baseline w-full">
         <h1 className="text-3xl text-white mt-4 text-left">{project.name}</h1>
@@ -29,13 +29,13 @@ function ProjectCard({ project }: { project: Project }) {
         {/* This div contains buttons and tags */}
         <div className="flex flex-row-reverse mt-auto gap-2">
           <a href={project.gitLink} target="_blank" rel="noopener noreferrer">
-            <button className="bg-gray-700 text-white text-2xl px-4 py-2 rounded-lg mt-4">
+            <button className="bg-gray-700 text-white text-lg px-4 py-2 rounded-lg mt-4">
               Open Repo
             </button>
           </a>
 
           <a href={project.pageLink} target="_blank" rel="noopener noreferrer">
-            <button className="bg-gray-700 text-white text-2xl px-4 py-2 rounded-lg mt-4">
+            <button className="bg-gray-700 text-white text-lg px-4 py-2 rounded-lg mt-4">
               View
             </button>
           </a>

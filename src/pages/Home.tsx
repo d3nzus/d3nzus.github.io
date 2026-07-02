@@ -1,6 +1,6 @@
-import Current from "../blocks/Current";
+import Education from "../blocks/Education";
 import IntroBlock from "../blocks/IntroBlock";
-import Previous from "../blocks/Previous";
+import Project from "../blocks/Project";
 import Header from "../components/Header";
 
 function Home() {
@@ -8,8 +8,8 @@ function Home() {
     <div>
       <Header />
       <IntroBlock />
-      <Current />
-      <Previous />
+      <Project/>
+      <Education />
     </div>
   );
 }
