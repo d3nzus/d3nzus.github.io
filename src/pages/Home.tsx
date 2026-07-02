@@ -1,4 +1,5 @@
 import Current from "../blocks/Current";
+import Education from "../blocks/Education";
 import IntroBlock from "../blocks/IntroBlock";
 import Previous from "../blocks/Previous";
 import Header from "../components/Header";
@@ -10,6 +11,7 @@ function Home() {
       <IntroBlock />
       <Current />
       <Previous />
+      <Education />
     </div>
   );
 }
