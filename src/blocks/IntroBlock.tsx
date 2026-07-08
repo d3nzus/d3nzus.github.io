@@ -3,21 +3,21 @@ import Socials from "../components/Socials";
 
 function IntroBlock() {
   return (
-    <div className="container mx-auto -top-30 relative">
+    <div className="container mx-auto -top-20 relative">
       {/* This div covers all content*/}
       <div className="my-4 flex flex-row gap-4">
         {/* This div covers all content except image, so that it renders seperately in the flex display*/}
-        <div className="-mx-1 flex flex-col top-35 relative">
-          <h1 className="text-6xl
+        <div className="-mx-1 flex flex-col top-20 relative">
+          <h1 className="text-4xl
            font-bold text-white -my-1 ">
             RENZ FREDERICK P. BAÑAS
           </h1>
-          <p className="text-2xl text-gray-400 -my-1">
+          <p className="text-lg text-gray-400 -my-1">
             Student Web Designer/Developer
           </p>
           <br />
 
-          <p className="text-md text-white text-justify w-full wrap-anywhere h-fit">
+          <p className="text-md text-white text-justify w-full wrap-anywhere h-fit leading-5">
             I am Renz, a student studying Computer Science at the University of
             the Philippines - Visayas. I am someone who’s passionate when it
             comes to accessible and open-source technologies and the belief that

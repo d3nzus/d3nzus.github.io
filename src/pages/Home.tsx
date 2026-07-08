@@ -5,7 +5,7 @@ import Header from "../components/Header";
 
 function Home() {
   return (
-    <div>
+    <div className="h-screen w-3/5 mx-auto">
       <Header />
       <IntroBlock />
       <Project/>
