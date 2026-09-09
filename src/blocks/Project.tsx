@@ -16,7 +16,7 @@ function Project() {
 
   return (
     <div className="container mx-auto top-10 relative align-middle justify-center">
-      <h1 className="text-4xl font-bold text-white my-2 text-center">I'VE WORKED ON:</h1>
+      <h1 className="text-4xl font-bold text-white my-10 text-center">I'VE WORKED ON:</h1>
 
       <ProjectCard project={projects[projectIndex]} />
 

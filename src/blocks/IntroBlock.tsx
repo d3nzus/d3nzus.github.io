@@ -3,21 +3,26 @@ import Socials from "../components/Socials";
 
 function IntroBlock() {
   return (
-    <div className="container mx-auto -top-20 relative">
-      {/* This div covers all content*/}
-      <div className="my-4 flex flex-row gap-4">
-        {/* This div covers all content except image, so that it renders seperately in the flex display*/}
-        <div className="-mx-1 flex flex-col top-20 relative">
-          <h1 className="text-4xl
-           font-bold text-white -my-1 ">
+    <div className="container mx-auto relative">
+
+      <div className="my-4 flex flex-col md:flex-row-reverse gap-6 items-center md:items-start">
+
+        <img
+          src="/image.png"
+          alt="Picture"
+          className="w-40 sm:w-56 md:w-2/5 h-auto z-0 shrink-0 relative object-cover pointer-events-none"
+        />
+
+        <div className="flex flex-col relative w-full md:w-3/5">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white -my-1 text-center md:text-left">
             RENZ FREDERICK P. BAÑAS
           </h1>
-          <p className="text-lg text-gray-400 -my-1">
+          <p className="text-lg text-gray-400 -my-1 text-center md:text-left">
             Student Web Designer/Developer
           </p>
           <br />
 
-          <p className="text-md text-white text-justify w-full wrap-anywhere h-fit leading-5">
+          <div className="text-md text-white text-justify w-full wrap-anywhere h-fit leading-5">
             I am Renz, a student studying Computer Science at the University of
             the Philippines - Visayas. I am someone who’s passionate when it
             comes to accessible and open-source technologies and the belief that
@@ -33,15 +38,11 @@ function IntroBlock() {
             </p>
             <Socials />
             <Line />
-          </p>
           </div>
-          <img
-            src="/image.png"
-            alt="Picture"
-            className="w-8/22 h-auto z-0 shrink-0 relative object-cover pointer-events-none"
-          />
         </div>
+
       </div>
+    </div>
   );
 }
 
