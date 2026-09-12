@@ -29,7 +29,7 @@ function Project() {
       <h1 className="text-4xl font-bold text-white my-10 text-center">I'VE WORKED ON:</h1>
 
       {/* key forces remount so a CSS entrance animation replays on every switch */}
-      <div key={projectIndex} className="w-full">
+      <div key={projectIndex} className="w-full animate-fade-in">
         <ProjectCard project={projects[projectIndex]} />
       </div>
 
