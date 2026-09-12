@@ -10,7 +10,7 @@ function IntroBlock() {
         <img
           src="/image.png"
           alt="Picture"
-          className="w-40 sm:w-56 md:w-2/5 h-auto z-0 shrink-0 relative object-cover pointer-events-none"
+          className="w-40 sm:w-56 md:w-2/5 h-auto z-0 shrink-0 relative object-cover pointer-events-none animate-fade-in"
         />
 
         <div className="flex flex-col relative w-full md:w-3/5">
@@ -33,7 +33,7 @@ function IntroBlock() {
             function as intended but are easy, convenient and fun for the user.
             I hope to continue learning and honing my skills moving forward.
             <br /> <br />
-            <p className="text-lg text-gray-400 mt-1.25 text-center m-3">
+            <p className="text-lg text-gray-400 mt-1.25 text-center m-3 animate-pulse">
               "Full-stack development for the people, by the people."
             </p>
             <Socials />
