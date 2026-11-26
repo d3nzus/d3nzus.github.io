@@ -12,7 +12,7 @@ function ProjectCard({ project }: { project: Project }) {
         <h3 className="text-xl text-white mt-4 text-center sm:text-left">
           {project.name}
         </h3>
-        <p className="text-sm text-gray-300 mt-2 text-center sm:text-left">
+        <p className="text-sm text-gray-50 mt-2 text-center sm:text-left">
           {project.description}
         </p>
 
