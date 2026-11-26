@@ -3,7 +3,7 @@ type Project = {
   description: string;
   image: string;
   gitLink: string;
-  pageLink: string;
+  pageLink?: string;
   tags: string[];
 };
 
