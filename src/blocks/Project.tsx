@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState, useMemo } from "react";
+import { useCallback, useState, useMemo } from "react";
 import ProjectCard from "../components/ProjectCard";
 import { getProjects } from "../content/Projects";
 
