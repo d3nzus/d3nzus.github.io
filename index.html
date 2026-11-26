@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles/global.css" />
     <meta
       name="description"
       content="Renz Frederick P. Bañas is a Computer Science student and web developer at the University of the Philippines Visayas. Explore his projects, achievements, and education."
@@ -62,8 +61,14 @@
       }
     </script>
   </head>
-  <body style="background-color: #000000;">
+  <body>
     <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; color: #ffffff; font-family: system-ui, sans-serif; text-align: center;">
+        This portfolio needs JavaScript to render. You can reach Renz at
+        <a href="mailto:d3nzus@gmail.com" style="color: #8ab4ff;">d3nzus@gmail.com</a>.
+      </div>
+    </noscript>
     <script type="module" src="/src/app/main.tsx"></script>
   </body>
 </html>
