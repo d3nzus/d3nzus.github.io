@@ -2,7 +2,7 @@ function AchievementCard() {
   return (
     <div className="bg-gray-500 rounded-4xl w-[90%] sm:w-3/4 h-fit mx-auto p-5 sm:p-7 my-10 flex flex-col gap-4 align-middle justify-center animate-fade-in">
       <img
-        src="/achievement-images/Achievement1.png"
+        src="/achievement-images/Achievement1.jpg"
         alt="Renz's team winning the Quantum Computing and Cybersecurity CTF Hackathon 2026"
         width={1280}
         height={720}
