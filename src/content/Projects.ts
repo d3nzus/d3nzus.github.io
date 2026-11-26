@@ -12,7 +12,7 @@ const projects: Project[] = [
   {
     name: "d3nzus.github.io",
     description: "A personal website built with React and TypeScript.",
-    image: "/project-images/d3nzus-github.png",
+    image: "/favicon.svg",
     gitLink: "https://github.com/d3nzus/d3nzus.github.io",
     pageLink: "https://d3nzus.github.io/",
     tags: ["typescript", "react", "vite", "tailwind"],
