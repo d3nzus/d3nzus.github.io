@@ -2,6 +2,7 @@
   "name": "d3nzus.github.io",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
