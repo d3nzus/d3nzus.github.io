@@ -17,16 +17,16 @@ function Project() {
 
   if (projects.length === 0) {
     return (
-      <div className="container mx-auto top-10 relative text-center text-white">
-        <h1 className="text-4xl font-bold my-10">I'VE WORKED ON:</h1>
+      <section aria-labelledby="projects-title" className="container mx-auto top-10 relative text-center text-white">
+        <h2 id="projects-title" className="text-4xl font-bold my-10">I'VE WORKED ON:</h2>
         <p className="text-gray-400">No projects to show yet.</p>
-      </div>
+      </section>
     );
   }
 
   return (
-    <div className="container mx-auto top-10 relative flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold text-white my-10 text-center">I'VE WORKED ON:</h1>
+    <section aria-labelledby="projects-title" className="container mx-auto top-10 relative flex flex-col items-center justify-center">
+      <h2 id="projects-title" className="text-4xl font-bold text-white my-10 text-center">I'VE WORKED ON:</h2>
 
       {/* key forces remount so a CSS entrance animation replays on every switch */}
       <div key={projectIndex} className="w-full animate-fade-in">
@@ -57,7 +57,7 @@ function Project() {
       <p className="text-gray-400 text-sm mt-3" aria-live="polite">
         {projectIndex + 1} / {projects.length}
       </p>
-    </div>
+    </section>
   );
 }
 

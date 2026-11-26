@@ -9,9 +9,9 @@ function ProjectCard({ project }: { project: Project }) {
         className="h-32 w-32 shrink-0 object-fill"
       />
       <div className="flex flex-col w-full">
-        <h1 className="text-xl text-white mt-4 text-center sm:text-left">
+        <h3 className="text-xl text-white mt-4 text-center sm:text-left">
           {project.name}
-        </h1>
+        </h3>
         <p className="text-sm text-gray-300 mt-2 text-center sm:text-left">
           {project.description}
         </p>

@@ -3,7 +3,7 @@ import Socials from "../components/Socials";
 
 function IntroBlock() {
   return (
-    <div className="container mx-auto relative">
+    <section aria-labelledby="intro-title" className="container mx-auto relative">
 
       <div className="my-4 flex flex-col md:flex-row-reverse gap-6 items-center md:items-start">
 
@@ -14,7 +14,7 @@ function IntroBlock() {
         />
 
         <div className="flex flex-col relative w-full md:w-3/5">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white -my-1 text-center md:text-left">
+          <h1 id="intro-title" className="text-3xl sm:text-4xl md:text-5xl font-bold text-white -my-1 text-center md:text-left">
             RENZ FREDERICK P. BAÑAS
           </h1>
           <p className="text-lg text-gray-400 -my-1 text-center md:text-left">
@@ -42,7 +42,7 @@ function IntroBlock() {
         </div>
 
       </div>
-    </div>
+    </section>
   );
 }
 
