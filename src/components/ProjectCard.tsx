@@ -8,7 +8,9 @@ function ProjectCard({ project }: { project: Project }) {
     <div className="bg-gray-500 rounded-4xl w-[90%] sm:w-3/4 h-fit mx-auto p-5 sm:p-7 my-10 flex flex-col sm:flex-row items-center sm:items-start justify-start gap-4">
       <img
         src={project.image}
-        alt={project.name}
+        alt=""
+        loading="lazy"
+        decoding="async"
         className="h-32 w-32 shrink-0 object-fill"
       />
       <div className="flex flex-col w-full">
@@ -25,6 +27,8 @@ function ProjectCard({ project }: { project: Project }) {
               key={index}
               src={`/tech-icons/${tag}.png`}
               alt={tag}
+              loading="lazy"
+              decoding="async"
               className="h-10 w-10 object-cover rounded-full"
             />
           ))}

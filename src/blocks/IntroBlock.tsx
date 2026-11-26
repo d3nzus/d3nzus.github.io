@@ -7,11 +7,22 @@ function IntroBlock() {
 
       <div className="my-4 flex flex-col md:flex-row-reverse gap-6 items-center md:items-start">
 
-        <img
-          src="/image.png"
-          alt="Picture"
-          className="w-40 sm:w-56 md:w-2/5 h-auto z-0 shrink-0 relative object-cover pointer-events-none animate-fade-in"
-        />
+        <picture className="w-40 sm:w-56 md:w-2/5 h-auto z-0 shrink-0 relative animate-fade-in">
+          <source
+            type="image/webp"
+            srcSet="/portrait-320.webp 320w, /portrait-480.webp 480w, /portrait-640.webp 640w, /portrait-960.webp 960w, /portrait-1146.webp 1146w"
+            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 37vw, (min-width: 640px) 224px, 160px"
+          />
+          <img
+            src="/portrait-960.png"
+            alt="Portrait of Renz Frederick P. Bañas"
+            width={1146}
+            height={1382}
+            fetchPriority="high"
+            decoding="async"
+            className="block w-full h-auto pointer-events-none"
+          />
+        </picture>
 
         <div className="flex flex-col relative w-full md:w-3/5">
           <h1 id="intro-title" className="text-3xl sm:text-4xl md:text-5xl font-bold text-white -my-1 text-center md:text-left">
