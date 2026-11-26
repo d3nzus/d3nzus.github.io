@@ -42,7 +42,7 @@ files may add rules, but must not contradict these.
 
 ## Commits and branches
 
-- Use Conventional Commits: `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`, `ci:`.
+- Use Conventional Commits: `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `meta:`.
 - Keep commits scoped; do not mix refactors with behavior changes.
 - Branch names: `feature/<topic>`, `fix/<topic>`, `docs/<topic>`.
 - Never amend or rewrite history that has been pushed to a shared branch unless asked.
