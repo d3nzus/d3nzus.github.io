@@ -11,3 +11,13 @@ body {
 .animate-fade-in {
   animation: fade-in 0.25s ease-out;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
