@@ -11,7 +11,7 @@ function ProjectCard({ project }: { project: Project }) {
         alt=""
         loading="lazy"
         decoding="async"
-        className="h-32 w-32 shrink-0 object-fill"
+        className="h-32 w-32 shrink-0 object-cover"
       />
       <div className="flex flex-col w-full">
         <h3 className="text-xl text-white mt-4 text-center sm:text-left">

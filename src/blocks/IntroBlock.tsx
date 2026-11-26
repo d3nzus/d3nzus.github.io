@@ -33,7 +33,7 @@ function IntroBlock() {
           </p>
           <br />
 
-          <div className="text-md text-white text-justify w-full wrap-anywhere h-fit leading-5">
+          <div className="text-base text-white text-justify w-full wrap-anywhere h-fit leading-5">
             I am Renz, a student studying Computer Science at the University of
             the Philippines - Visayas. I am someone who’s passionate when it
             comes to accessible and open-source technologies and the belief that

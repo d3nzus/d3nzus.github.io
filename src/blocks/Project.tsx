@@ -35,7 +35,7 @@ function Project() {
 
       <div className="flex items-center justify-center gap-1 mt-4">
         <button
-          className="bg-gray-700 hover:bg-gray-600 transition-colors text-white text-md px-4 py-2 rounded-lg h-fit disabled:opacity-40 disabled:cursor-not-allowed"
+          className="bg-gray-700 hover:bg-gray-600 transition-colors text-white text-base px-4 py-2 rounded-lg h-fit disabled:opacity-40 disabled:cursor-not-allowed"
           id="projectPrev"
           onClick={prevProject}
           disabled={projects.length <= 1}
@@ -44,7 +44,7 @@ function Project() {
           Previous
         </button>
         <button
-          className="bg-gray-700 hover:bg-gray-600 transition-colors text-white text-md px-4 py-2 rounded-lg h-fit disabled:opacity-40 disabled:cursor-not-allowed"
+          className="bg-gray-700 hover:bg-gray-600 transition-colors text-white text-base px-4 py-2 rounded-lg h-fit disabled:opacity-40 disabled:cursor-not-allowed"
           id="projectNext"
           onClick={nextProject}
           disabled={projects.length <= 1}

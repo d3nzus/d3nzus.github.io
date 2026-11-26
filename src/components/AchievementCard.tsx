@@ -8,7 +8,7 @@ function AchievementCard() {
         height={720}
         loading="lazy"
         decoding="async"
-        className="h-1/2 w-fill object-fill"
+        className="w-full h-auto object-contain"
       />
       <div className="flex flex-col align-baseline w-full">
         <h3 className="text-xl text-white mt-4 text-left">Champion at Quantum Computing and Cybersecurity CTF Hackathon 2026 </h3>
