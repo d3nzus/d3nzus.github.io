@@ -6,7 +6,7 @@ const projects: Project[] = [
     description: "A comfy-themed requirements tracker designed for college students.",
     image: "/project-images/reqtrack.png",
     gitLink: "https://github.com/d3nzus/ReqTrack",
-    pageLink: "",
+    pageLink: "https://d3nzus-req-track.vercel.app/",
     tags: ["typescript", "react", "vite", "supabase", "tailwind"],
   },
   {
@@ -14,7 +14,7 @@ const projects: Project[] = [
     description: "A personal website built with React and TypeScript.",
     image: "/project-images/d3nzus-github.png",
     gitLink: "https://github.com/d3nzus/d3nzus.github.io",
-    pageLink: "",
+    pageLink: "https://d3nzus.github.io/",
     tags: ["typescript", "react", "vite", "tailwind"],
   },
   {
@@ -22,7 +22,7 @@ const projects: Project[] = [
     description: "A browser-based anime guessing game with multiple gamemodes, a leaderboard system and user login.",
     image: "/project-images/aniguess.png",
     gitLink: "https://github.com/dejely/Aniguess",
-    pageLink: "",
+    pageLink: "https://aniguesser.vercel.app",
     tags: ["typescript", "react", "vite", "supabase", "tailwind"],
   },
 ];

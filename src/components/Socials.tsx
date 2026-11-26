@@ -4,7 +4,7 @@ function Socials(){
             <a href="https://www.instagram.com/d3nzus" target="_blank" rel="noopener noreferrer">
                 <img src="/icons/ig.png" alt="Instagram" className="h-10 w-10 mx-3 my-5 animate-fade-in" />
             </a>
-            <a href="mailto:d3nzus@email.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:d3nzus@gmail.com">
                 <img src="/icons/em.png" alt="Email" className="h-10 w-10 mx-3 my-5 animate-fade-in" />
             </a>
             <a href="https://github.com/d3nzus" target="_blank" rel="noopener noreferrer">
