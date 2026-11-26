@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        try {
+          sessionStorage.setItem(
+            "spa-redirect",
+            location.pathname + location.search + location.hash
+          );
+        } catch (_) {
+          // Storage can be unavailable in private modes; fall back to home.
+        }
+        location.replace("/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
