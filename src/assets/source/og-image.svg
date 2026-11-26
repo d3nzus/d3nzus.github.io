@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08090c"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8ab4ff"/>
+      <stop offset="1" stop-color="#c7a6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="80" r="280" fill="#8ab4ff" opacity="0.10"/>
+  <circle cx="120" cy="620" r="220" fill="#c7a6ff" opacity="0.08"/>
+  <rect x="70" y="70" width="1060" height="490" rx="28" fill="#11131a" stroke="#262b37"/>
+  <rect x="120" y="132" width="72" height="6" rx="3" fill="url(#line)"/>
+  <text x="120" y="190" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" letter-spacing="5" fill="#8ab4ff">PERSONAL PORTFOLIO</text>
+  <text x="120" y="290" font-family="DejaVu Sans, Arial, sans-serif" font-size="56" font-weight="700" fill="#e9ecf3">RENZ FREDERICK P. BAÑAS</text>
+  <text x="120" y="350" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" fill="#9aa4b5">Student Web Developer</text>
+  <text x="120" y="438" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" fill="#8ab4ff">d3nzus.github.io</text>
+  <text x="120" y="490" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#707b8d">React · TypeScript · Vite · Tailwind CSS</text>
+</svg>
