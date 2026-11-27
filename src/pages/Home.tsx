@@ -20,6 +20,7 @@ function Home() {
         <Project />
         <Education />
       </main>
+      <br/>
       <footer className="container mx-auto py-8 text-center text-sm text-gray-400">
         © 2026 Renz Frederick P. Bañas. Built with React, Vite, and Tailwind CSS.
       </footer>

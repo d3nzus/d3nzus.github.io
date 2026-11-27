@@ -2,6 +2,13 @@ import Project from "../types";
 
 const projects: Project[] = [
   {
+    name: "FiatLux",
+    description: "A Rust CLI that scaffolds new projects from reusable YAML blueprints.",
+    image: "/project-images/fiatlux.png",
+    gitLink: "https://github.com/d3nzus/fiatlux",
+    tags: ["rust"],
+  },
+  {
     name: "ReqTrack",
     description: "A comfy-themed requirements tracker designed for college students.",
     image: "/project-images/reqtrack.png",
