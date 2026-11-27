@@ -9,14 +9,6 @@ const projects: Project[] = [
     tags: ["rust"],
   },
   {
-    name: "ReqTrack",
-    description: "A comfy-themed requirements tracker designed for college students.",
-    image: "/project-images/reqtrack.png",
-    gitLink: "https://github.com/d3nzus/ReqTrack",
-    pageLink: "https://d3nzus-req-track.vercel.app/",
-    tags: ["typescript", "react", "vite", "supabase", "tailwind"],
-  },
-  {
     name: "d3nzus.github.io",
     description: "A personal website built with React and TypeScript.",
     image: "/favicon.svg",
